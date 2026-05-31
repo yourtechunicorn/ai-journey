@@ -1,0 +1,16 @@
+{
+  "name": "linkedin-draft",
+  "version": "1.0.0",
+  "description": "CLI for drafting LinkedIn posts with Claude",
+  "type": "module",
+  "bin": {
+    "linkedin-draft": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "@inquirer/prompts": "^7.0.0"
+  }
+}
